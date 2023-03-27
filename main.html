@@ -1,4 +1,4 @@
-<form>
+<form method="post">
   <h2>Feedback Form</h2>
   
   <label for="name">Name:</label>
@@ -8,12 +8,7 @@
   <input type="url" id="portfolio" name="portfolio" required>
   
   <label for="favColor">Favourite Colour:</label>
-  <select id="favColor" name="favColor">
-    <option value="red">Red</option>
-    <option value="green">Green</option>
-    <option value="blue">Blue</option>
-    <option value="yellow">Yellow</option>
-  </select>
+        <input type="color" id="favColor" required>
   
   <label for="likeness">How much do you like your favourite colour?</label>
   <input type="range" id="likeness" name="likeness" min="1" max="100">
